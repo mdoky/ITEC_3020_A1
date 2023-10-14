@@ -63,5 +63,61 @@
 
   </nav>
 
+
+  <div class="container" id="Content" style="padding:2%;">
+    <div class="row">
+      <div class="col-lg-8">
+        <img src="piplup_bag.jpg" alt="Product Image" style="width:80%;padding:2%">
+      </div>
+      <div class="col-lg-4">
+        <!--Product Description START -->
+        <div>
+          <h1> Pokemon Plush Bag </h1>
+          <h2> $29.99 CAD </h2>
+          <h4> A cute and stylish pal to carry around and store your everyday essentials! </h4>
+          <ul>
+            <li> 30cm tall plush </li>
+            <li> soft, minky fabric with woven bag straps </li>
+            <li> 100% polyester stuffing </li>
+            <li> Available as four of your favourite pokemon: piplup, eevee, pikachu, and snorlax! </li>
+          </ul>
+        </div>
+        <!--Product Description END-->
+
+        <form action="/action_page.php">
+
+          <div class="mb-3 mt-3">
+            <h4>Type</h4>
+            <select class="form-select">
+              <option>Piplup</option>
+              <option>Eevee</option>
+              <option>Pikachu</option>
+              <option>Snorlax</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <div>
+                 <label for="quantity"> <h4>Quantity</h4></label>
+                 <div class="quantity-controls">
+                     <button type="button" class="qty-minus alt-focus" aria-label="Reduce item quantity by one">-</button>
+                     <input id="quantity" class="quantity-selector" value="1" min="1" type="text" name="quantity">
+                     <button type="button" class="qty-plus alt-focus" aria-label="Increase item quantity by one">+</button>
+                 </div>
+              </div>
+          </div>
+          <div class="form-check mb-3">
+
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="background-color:black;padding:2%">Add to Cart<i style="font-size:24px; width: 50px; color:white;" class="fa">&#xf217;</i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    
+  <div>
+
 </body>
 </html>
